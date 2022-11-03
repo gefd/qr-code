@@ -1,0 +1,24 @@
+{
+    "name": "gefd/qr-code",
+    "description": "PHP QRCode Generator",
+    "type": "library",
+    "keywords": ["qrcode", "generator"],
+    "homepage": "https://github.com/gefd/qr-code",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geoff Davis",
+            "email": "gef.davis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "QRCode\\": "src/QRCode/"
+        }
+    }
+}
+
